@@ -41,7 +41,7 @@ constexpr float HOMING_CURRENT    = 0.15f;       // range 0..1
 constexpr float CALIBRATION_RANGE = 83; 
 
 // velocity of the magnetic field during calibration (lower is more accurate)
-constexpr float CALIBRATION_FIELD_VELOCITY = 20.0f; 
+constexpr float CALIBRATION_FIELD_VELOCITY = 10.0f; 
 
 // size of the calibration lookup table
 constexpr int ENCODER_LUT_SIZE = 256;

@@ -14,8 +14,6 @@
 
 //*** CLASS *****************************************************************************
 
-#define HW_VERSION4 // remove this if you are using HW-v3 (Note geometry parameters might be slightly off for HW-v3.0!)
-
 #ifdef HW_VERSION4
 
 /**
@@ -69,7 +67,7 @@ KinematicModel_Delta3D::KinematicModel_Delta3D() {
   
   // REAL DEVICE <--- These might be slightly wrong
   Vec3F base_offset(-32.5f, -32.5f, -32.5f);
-  arm_length = 73.8f;
+  arm_length = 73.9f;
   rotor_radius = 15.0f;
   ee_attachment_points[0] = Vec3F(-0.5f, -14.5f, 2.0f);
   ee_attachment_points[1] = Vec3F(2.0f, -0.5f, -14.5f);
